@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "roboto-light";
+  src: url("../assets/Roboto/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: "nunito-regular";
+  src: url("../assets/Nunito/Nunito-VariableFont_wght.ttf");
+}
+.registration-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #1a2529;
+}
+.registration-form {
+  width: 50%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.inputField {
+  width: 50%;
+}
+.registerPageHeading {
+  color: #1db8cd;
+  font-family: "nunito-regular";
+  font-size: 35px;
+}
+.submit-button {
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: #1db8cd;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-family: "nunito-regular";
+}
+.submit-button:hover {
+  background-color: rgba(29, 184, 205, 0.85)
+    /* RGBA representation of #1db8cd with full opacity */;
+}
+.notvalid-statement {
+  display: none;
+}
+
+.aadhaarNumber {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  grid-gap: 15px;
+}

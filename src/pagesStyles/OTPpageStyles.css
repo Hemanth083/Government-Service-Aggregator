@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "roboto-regular";
+  src: url("../assets/Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "roboto-light";
+  src: url("../assets/Roboto/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: "nunito-regular";
+  src: url("../assets/Nunito/Nunito-VariableFont_wght.ttf");
+}
+.OTPpage-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: white;
+}
+.OTP-form {
+  width: 50%;
+  height: 100%;
+  border-radius: 2px solid black;
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 1%;
+  flex-direction: column;
+  background-color: white;
+}
+.image {
+  width: 50%;
+}
+.otpConatainer {
+  width: 60%;
+  margin-bottom: 6%;
+}
+label {
+  font-size: 18px;
+}
+h2 {
+  font-size: 22px;
+  font-family: "nunito-regular";
+  color: black;
+}
+a {
+  font-family: "nunito-regular";
+  text-decoration: none;
+}
+.name {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+label {
+  color: black;
+}
+
+p {
+  color: black;
+  font-family: "nunito-regular";
+}
+.nameInOtpPage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 60%;
+}
+.numberInOtpPage {
+  width: 60%;
+}

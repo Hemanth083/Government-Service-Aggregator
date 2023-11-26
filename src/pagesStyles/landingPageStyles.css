@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "roboto-regular";
+  src: url("../assets/Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "roboto-light";
+  src: url("../assets/Roboto/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: "nunito-regular";
+  src: url("../assets/Nunito/Nunito-VariableFont_wght.ttf");
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #1da8cd;
+}
+.image-container {
+  width: 60%;
+}
+.text-conatiner {
+  width: 40%;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 40%;
+}
+.register {
+  display: flex;
+}
+img {
+  width: 30px;
+  height: auto;
+}
+h1 {
+  font-family: "nunito-regular";
+  font-size: 65px;
+  font-weight: bolder;
+  color: white;
+}
+
+h2 {
+  font-family: "nunito-regular";
+  font-size: 21px;
+  font-weight: 400;
+  color: white;
+}
+.register-button {
+  border-radius: 5px;
+  border: none;
+  background-color: #1a2529;
+  color: white;
+  padding: 15px 30px;
+  font-family: "nunito-regular";
+}
+button:hover {
+  background-color: rgba(26, 37, 41, 0.95);
+}
+p {
+  color: red;
+}
